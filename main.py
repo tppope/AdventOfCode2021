@@ -36,9 +36,10 @@ def day4GetAnswers(inputDirectory):
     print("--- End of the day ---")
     print()
 
+
 def day5GetAnswers(inputDirectory):
     print("--- Day 5: Hydrothermal Venture ---")
-    print("Points that do at least two lines overlap are %s" % day5.getAnswerPart1(inputDirectory))
+    print("Points that do at least two lines overlap are %s" % day5.getAnswer(inputDirectory))
     print("--- End of the day ---")
     print()
 

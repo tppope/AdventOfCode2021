@@ -57,5 +57,5 @@ def insertToPassedPoints(x, y, passedPoints, twoTimesInPassedPoints):
             twoTimesInPassedPoints.append((str(x) + "," + str(y)))
 
 
-def getAnswerPart1(inputDirectory):
+def getAnswer(inputDirectory):
     return getPointsCountWithTwoAndMoreOverlaps(inputDirectory)
