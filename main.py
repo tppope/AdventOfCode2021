@@ -2,6 +2,7 @@ import day_1_sonar_sweep as day1
 import day_2_dive as day2
 import day_3_binary_diagnostic as day3
 import day_4_giant_squid as day4
+import day_5_hydrothermal_venture as day5
 
 
 def day1GetAnswers(inputDirectory):
@@ -35,9 +36,16 @@ def day4GetAnswers(inputDirectory):
     print("--- End of the day ---")
     print()
 
+def day5GetAnswers(inputDirectory):
+    print("--- Day 5: Hydrothermal Venture ---")
+    print("Points that do at least two lines overlap are %s" % day5.getAnswerPart1(inputDirectory))
+    print("--- End of the day ---")
+    print()
+
 
 if __name__ == '__main__':
     day1GetAnswers('input/day_1_sonar_sweep/input.txt')
     day2GetAnswers('input/day_2_dive/input.txt')
     day3GetAnswers('input/day_3_binary_diagnostic/input.txt')
     day4GetAnswers('input/day_4_giant_squid/input.txt')
+    day5GetAnswers('input/day_5_hydrothermal_venture/input.txt')
