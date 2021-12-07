@@ -48,7 +48,8 @@ def day5GetAnswers(inputDirectory):
 
 def day6GetAnswers(inputDirectory):
     print("--- Day 6: Lanternfish ---")
-    print("Count of lanternfish that there would be after 80 days is %s" % day6.getAnswer(inputDirectory))
+    print("Count of lanternfish that there would be after 80 days is %s" % day6.getAnswerPart1(inputDirectory))
+    print("Count of lanternfish that there would be after 256 days is %s" % day6.getAnswerPart2(inputDirectory))
     print("--- End of the day ---")
     print()
 
@@ -66,5 +67,5 @@ if __name__ == '__main__':
     # day3GetAnswers('input/day_3_binary_diagnostic/input.txt')
     # day4GetAnswers('input/day_4_giant_squid/input.txt')
     # day5GetAnswers('input/day_5_hydrothermal_venture/input.txt')
-    # day6GetAnswers('input/day_6_lanternfish/input.txt')
-    day7GetAnswers('input/day_7_the_treachery_of_whales/input.txt')
+    day6GetAnswers('input/day_6_lanternfish/input.txt')
+    # day7GetAnswers('input/day_7_the_treachery_of_whales/input.txt')
