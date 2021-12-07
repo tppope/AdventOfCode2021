@@ -15,7 +15,7 @@ def newLanternfishCount(inputDirectory):
     lanternFishes = getLanternfishes(inputDirectory)
     timerCounter = getTimerCounter(lanternFishes)
     for day in range(256):
-        timerCounter = updateTimerCounter(timerCounter)
+        updateTimerCounter(timerCounter)
     return getTimerCounterSum(timerCounter)
 
 
@@ -26,7 +26,6 @@ def updateTimerCounter(timerCounter):
         timerCounter[i] = timerCounter[i + 1]
     timerCounter[7] = eightTimerCount
     timerCounter[6] += sixTimerCount
-    return timerCounter
 
 
 def getTimerCounterSum(timerCounter):
