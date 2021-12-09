@@ -6,6 +6,7 @@ import day_5_hydrothermal_venture as day5
 import day_6_lanternfish as day6
 import day_7_the_treachery_of_whales as day7
 import day_8_seven_segment_search as day8
+import day_9_smoke_basin as day9
 
 
 def day1GetAnswers(inputDirectory):
@@ -63,9 +64,17 @@ def day7GetAnswers(inputDirectory):
 
 
 def day8GetAnswers(inputDirectory):
-    print("--- Day 7: Seven Segment Search ---")
+    print("--- Day 8: Seven Segment Search ---")
     print("Digits 1, 4, 7, 8 appear in output %s times" % day8.getAnswerPart1(inputDirectory))
     print("Sum of all output values is %s" % day8.getAnswerPart2(inputDirectory))
+    print("--- End of the day ---")
+    print()
+
+
+def day9GetAnswers(inputDirectory):
+    print("--- Day 9: Smoke Basin ---")
+    print("Sum of risk level is %s" % day9.getAnswerPart1(inputDirectory))
+    print("Multiply the sizes of the three largest basins is %s" % day9.getAnswerPart2(inputDirectory))
     print("--- End of the day ---")
     print()
 
@@ -78,4 +87,5 @@ if __name__ == '__main__':
     # day5GetAnswers('input/day_5_hydrothermal_venture/input.txt')
     # day6GetAnswers('input/day_6_lanternfish/input.txt')
     # day7GetAnswers('input/day_7_the_treachery_of_whales/input.txt')
-    day8GetAnswers('input/day_8_seven_segment_search/input.txt')
+    # day8GetAnswers('input/day_8_seven_segment_search/input.txt')
+    day9GetAnswers('input/day_9_smoke_basin/input.txt')
