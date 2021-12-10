@@ -7,6 +7,7 @@ import day_6_lanternfish as day6
 import day_7_the_treachery_of_whales as day7
 import day_8_seven_segment_search as day8
 import day_9_smoke_basin as day9
+import day_10_syntax_scoring as day10
 
 
 def day1GetAnswers(inputDirectory):
@@ -79,6 +80,14 @@ def day9GetAnswers(inputDirectory):
     print()
 
 
+def day10GetAnswers(inputDirectory):
+    print("--- Day 10: Syntax Scoring ---")
+    print("Total syntax error score is %s" % day10.getAnswerPart1(inputDirectory))
+    print("Middle score is %s" % day10.getAnswerPart2(inputDirectory))
+    print("--- End of the day ---")
+    print()
+
+
 if __name__ == '__main__':
     # day1GetAnswers('input/day_1_sonar_sweep/input.txt')
     # day2GetAnswers('input/day_2_dive/input.txt')
@@ -88,4 +97,5 @@ if __name__ == '__main__':
     # day6GetAnswers('input/day_6_lanternfish/input.txt')
     # day7GetAnswers('input/day_7_the_treachery_of_whales/input.txt')
     # day8GetAnswers('input/day_8_seven_segment_search/input.txt')
-    day9GetAnswers('input/day_9_smoke_basin/input.txt')
+    # day9GetAnswers('input/day_9_smoke_basin/input.txt')
+    day10GetAnswers('input/day_10_syntax_scoring/input.txt')
